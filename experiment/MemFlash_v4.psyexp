@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.2.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '1', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="fileList"/>
+    <Param name="Save csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="True" valType="bool"/>
+    <Param name="Save hdf5 file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1024, 768]" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="elAddress" updates="None" val="100.1.1.1" valType="str"/>
+    <Param name="elDataFiltering" updates="None" val="FILTER_LEVEL_2" valType="str"/>
+    <Param name="elLiveFiltering" updates="None" val="FILTER_LEVEL_OFF" valType="str"/>
+    <Param name="elModel" updates="None" val="EYELINK 1000 DESKTOP" valType="str"/>
+    <Param name="elPupilAlgorithm" updates="None" val="ELLIPSE_FIT" valType="str"/>
+    <Param name="elPupilMeasure" updates="None" val="PUPIL_AREA" valType="str"/>
+    <Param name="elSampleRate" updates="None" val="1000" valType="num"/>
+    <Param name="elSimMode" updates="None" val="False" valType="bool"/>
+    <Param name="elTrackEyes" updates="None" val="RIGHT_EYE" valType="str"/>
+    <Param name="elTrackingMode" updates="None" val="PUPIL_CR_TRACKING" valType="str"/>
+    <Param name="expName" updates="None" val="Working" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="eyetracker" updates="None" val="None" valType="str"/>
+    <Param name="gpAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="gpPort" updates="None" val="4242" valType="num"/>
+    <Param name="keyboardBackend" updates="None" val="ioHub" valType="str"/>
+    <Param name="logging level" updates="None" val="data" valType="code"/>
+    <Param name="mgBlink" updates="None" val="('MIDDLE_BUTTON',)" valType="list"/>
+    <Param name="mgMove" updates="None" val="CONTINUOUS" valType="str"/>
+    <Param name="mgSaccade" updates="None" val="0.5" valType="num"/>
+    <Param name="plConfidenceThreshold" updates="None" val="0.6" valType="num"/>
+    <Param name="plPupilCaptureRecordingEnabled" updates="None" val="True" valType="bool"/>
+    <Param name="plPupilCaptureRecordingLocation" updates="None" val="" valType="str"/>
+    <Param name="plPupilRemoteAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="plPupilRemotePort" updates="None" val="50020" valType="num"/>
+    <Param name="plPupilRemoteTimeoutMs" updates="None" val="1000" valType="num"/>
+    <Param name="plPupillometryOnly" updates="None" val="False" valType="bool"/>
+    <Param name="plSurfaceName" updates="None" val="psychopy_iohub_surface" valType="str"/>
+    <Param name="tbLicenseFile" updates="None" val="" valType="str"/>
+    <Param name="tbModel" updates="None" val="" valType="str"/>
+    <Param name="tbSampleRate" updates="None" val="60" valType="num"/>
+    <Param name="tbSerialNo" updates="None" val="" valType="str"/>
+  </Settings>
+  <Routines>
+    <Routine name="begin">
+      <TextComponent name="BeginText">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="BeginText" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Welcome to this experiment. Press 'spacebar' to start." valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="StartButton">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="StartButton" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="end">
+      <TextComponent name="finish">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="finish" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Thank you for participating in this experiment. We will come to you in a moment." valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trial_lure">
+      <ImageComponent name="image_lure">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$Lure" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="image_lure" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <TextComponent name="text_lure">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="text_lure" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Indoor ('left') or Outdoor ('right')" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="img_enc"/>
+    <Routine name="word"/>
+    <Routine name="routine_1"/>
+    <Routine name="fixation"/>
+    <Routine name="fixation2"/>
+    <Routine name="fixation4"/>
+    <Routine name="instructions">
+      <CodeComponent name="code_3">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="reminder = path_instruc + 'reminder.png'" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="reminder = (path_instruc + &quot;reminder.png&quot;);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_3" valType="code"/>
+      </CodeComponent>
+      <KeyboardComponent name="continue_2">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="continue_2" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <ImageComponent name="image_2">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="$reminder" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="[1.4,1]" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="blocks"/>
+    <Routine name="code_init">
+      <CodeComponent name="code_begin">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="# before experiment&amp;#10;import random as rd &amp;#10;import openpyxl as xl&amp;#10;import numpy as np&amp;#10;&amp;#10;# paths&amp;#10;main_path = 'C:\\Users\\alexvb\\Documents\\Memflash\\' #where all the files are located&amp;#10;stim_excel = main_path+'stimlist.xlsx'  #stimulus excel file&amp;#10;stim_bullseye = main_path+'bullseye.png'  #bullseye ping&amp;#10;path_prefix = main_path+'sorted\\' #where images are found&amp;#10;path_instruc = main_path+'instructions\\' #where instruction PNGs are found&amp;#10;portaddress = &quot;0x2010&quot; #check under device manager&amp;#10;send_trigs = 0 #send port triggers? Put on only in lab&amp;#10;&amp;#10;# ~~~~~~~~~~~~~~~~~~~&amp;#10;# meta-parameters&amp;#10;t_start = 0.5  # start time of pinging window&amp;#10;t_end = 1.5  # end time of pinging window&amp;#10;t_bins = 3  # number of time bins (= number of pinged lists)&amp;#10;nlists_p = t_bins # number of lists with ping&amp;#10;nlists_np = 1  # number of lists without ping&amp;#10;nlists = nlists_p + nlists_np # number of total lists&amp;#10;# categories (depends on excel file)&amp;#10;ntop = 96*2  # nstims top base stim set (objects vs scenes)&amp;#10;nmid = 48*2  # nstims mid base stim set (e.g. inanimate vs animate)&amp;#10;nbotDims = 4  # number of exemplar categories&amp;#10;nbotStims = 12  # number of stimuli per category&amp;#10;nbot = nbotDims*nbotStims  # number of bot base stim set&amp;#10;&amp;#10;# parameters&amp;#10;nblocks = 8  # number of blocks total&amp;#10;npairs_block = 10  # number of unique pairs per block&amp;#10;ntrials_enc = 10  # number of enc trials per block&amp;#10;ntrials_ret = 40  # number of ret trials per block.&amp;#10;wm_dur = 0.1 # duration of working memory task (in seconds)&amp;#10;nret_test = npairs_block # number of trials to test retrieval&amp;#10;# ~~~~~~~~~~~~~~~~~~~&amp;#10;&amp;#10;# set port&amp;#10;if send_trigs == 1:&amp;#10;  from psychopy import parallel&amp;#10;&amp;#10;# set seed&amp;#10;pp_num = expInfo['participant'] #fetch participant&amp;#10;rd.seed(int(pp_num)) #tailor rd seed to participant&amp;#10;np.random.seed(int(pp_num)) #tailor np seed to participant&amp;#10;&amp;#10;# check if we are in a training sequence&amp;#10;if int(pp_num) &gt; 98:&amp;#10;    nblocks = 8  # number of blocks total&amp;#10;    npairs_block = 10  # number of unique pairs per block&amp;#10;    ntrials_enc = 10  # number of enc trials per block&amp;#10;    ntrials_ret = 10  # number of ret trials per block.&amp;#10;    wm_dur = 10 # duration of working memory task (in seconds)&amp;#10;    nret_test = npairs_block # number of trials to test retrieval&amp;#10;    path_prefix = main_path+'training\\' #where images are found&amp;#10;    stim_excel = main_path+'traininglist.xlsx'  #stimulus excel file&amp;#10;    &amp;#10;# calculate basic variables for lists to grab from&amp;#10;# lingo: &quot;list&quot; refers to set of stimuli for one time bin&amp;#10;t_binedges = np.linspace(t_start, t_end, t_bins+1)&amp;#10;total_pairs = nblocks*npairs_block&amp;#10;pairs_perlist = total_pairs/nlists&amp;#10;if pairs_perlist % round(pairs_perlist) != 0:&amp;#10;    print('Error: nlists and nblocks not divisible!')&amp;#10;else:&amp;#10;    pairs_perlist = int(pairs_perlist)&amp;#10;&amp;#10;# access stimulus file&amp;#10;wb = xl.load_workbook(stim_excel, data_only=True)  # read excel&amp;#10;ws = wb.active&amp;#10;&amp;#10;# initiate variables&amp;#10;verb_list = []&amp;#10;# number of exemplar categories across the board&amp;#10;nbotDimsFull = int(ntop/nbotStims)&amp;#10;stim_list = np.zeros((nlists, pairs_perlist))&amp;#10;soa_list = np.zeros((nlists, pairs_perlist))&amp;#10;stim_struc = np.zeros&amp;#10;stim_path = []&amp;#10;&amp;#10;# load verbs&amp;#10;for col in ws['A']:&amp;#10;    verb_list.append(col.value)&amp;#10;&amp;#10;rd.shuffle(verb_list)  # shuffle&amp;#10;&amp;#10;# load stim paths&amp;#10;for col in ws['B']:&amp;#10;    stim_path.append(col.value)&amp;#10;&amp;#10;# add folder path prefix&amp;#10;stim_path = [path_prefix + pre for pre in stim_path]&amp;#10;&amp;#10;# build stim matrix to fetch from&amp;#10;# stim_struc&amp;#10;&amp;#10;# generate set of stimuli per list with equal amount of stim from top categories&amp;#10;for l in range(0, nlists):&amp;#10;    even_i = 0  # this represents one of the two top categories (e.g. objects)&amp;#10;    odd_i = 0  # this represents the other&amp;#10;    for p in range(0, pairs_perlist):  # for every pair per list&amp;#10;        if (p % 2) == 0:  # if object&amp;#10;            # fetch from even_i-th 12 exemplars&amp;#10;            rand_stim = rd.randint(0, 11)+(even_i*12)&amp;#10;            even_i += 1  # update even_i&amp;#10;            if rand_stim &gt; ntop/2-1:  # make sure it does not exceed objects&amp;#10;                # if it does, just randomly grab from objects&amp;#10;                rand_stim = rd.randint(0, ntop/2-1)&amp;#10;        else:&amp;#10;            rand_stim = (rd.randint(0, 11)+(odd_i*12))+ntop / \&amp;#10;                2  # fetch from odd-ith exemplars (scene)&amp;#10;            odd_i += 1  # update odd_i&amp;#10;            if rand_stim &gt; ntop-1:  # make sure it does not exceed scenes&amp;#10;                # if it does, randomly grab&amp;#10;                rand_stim = rd.randint(ntop/2, ntop-1)&amp;#10;        while rand_stim in stim_list:  # as long as that rand_stim is already in stim_list, try again&amp;#10;            if (p % 2) == 0:&amp;#10;                rand_stim = rd.randint(0, 11)+((even_i-1)*12)&amp;#10;                if rand_stim &gt; ntop/2-1:&amp;#10;                    rand_stim = rd.randint(0, ntop/2-1)&amp;#10;            else:&amp;#10;                rand_stim = (rd.randint(0, 11)+((odd_i-1)*12))+ntop/2&amp;#10;                if rand_stim &gt; ntop-1:&amp;#10;                    rand_stim = rd.randint(ntop/2, ntop-1)&amp;#10;        stim_list[l, p] = rand_stim  # now add to list&amp;#10;&amp;#10;&amp;#10;# perform balance of top categories check for each list&amp;#10;for l in range(0, nlists):&amp;#10;    if np.size(stim_list[l, ][stim_list[l, :] &gt;= ntop/2]) == np.size(stim_list[l, ])/2:&amp;#10;        print('OK: Roughly equal number of top stimuli categories for list', l)&amp;#10;    else:&amp;#10;        raise Exception(&amp;#10;            &quot;Error: No roughly equal number of top stimuli categories for list&quot;)&amp;#10;&amp;#10;# perform uniqueness check&amp;#10;if np.size(stim_list[:]) == np.size(np.unique(stim_list[:])):&amp;#10;    print('OK: Unique stimulus list!')&amp;#10;else:&amp;#10;    raise Exception(&quot;Error: non-unique stimulus list&quot;)&amp;#10;&amp;#10;# create associated ping timings&amp;#10;for l in range(0, nlists):&amp;#10;    if l &lt; nlists_p:&amp;#10;      soa_list[l, :] = l&amp;#10;    else: soa_list[l, :] = 99 # here we reach non-ping lists; no ping = 99&amp;#10;    &amp;#10;# vectorize arrays&amp;#10;stim_list2 = np.ndarray.flatten(stim_list)&amp;#10;soa_list2 = np.ndarray.flatten(soa_list)&amp;#10;&amp;#10;# unison shuffle to prevent order effects&amp;#10;perm2 = np.random.permutation(len(stim_list2))&amp;#10;stim_list2 = stim_list2[perm2]&amp;#10;soa_list2 = soa_list2[perm2]&amp;#10;&amp;#10;# now use this to build a stimulus matrix for the actual experiment&amp;#10;stim_list3 = np.reshape(stim_list2, (nblocks, npairs_block))&amp;#10;soa_list3 = np.reshape(soa_list2, (nblocks, npairs_block))&amp;#10;&amp;#10;# force integer on everything&amp;#10;stim_list2 = stim_list2.astype(int)&amp;#10;stim_list3 = stim_list3.astype(int)&amp;#10;soa_list2 = soa_list2.astype(int)&amp;#10;soa_list3 = soa_list3.astype(int)&amp;#10;&amp;#10;# convert from time bin identity to random soa in bin&amp;#10;soa_list4 = np.zeros(np.size(soa_list2))&amp;#10;ind = 0&amp;#10;for i in soa_list2:&amp;#10;    if i != 99: #only create a serious soa for pinged stimuli&amp;#10;      soa_list4[ind] = rd.uniform(t_binedges[i],t_binedges[i+1])&amp;#10;    else:&amp;#10;      soa_list4[ind] = 99 #no ping (well, 99 seconds into a trial)&amp;#10;    ind += 1&amp;#10;&amp;#10;# re-format this one too&amp;#10;soa_list4 = np.reshape(soa_list4, (nblocks, npairs_block))&amp;#10;&amp;#10;# fix stim_path&amp;#10;stim_path2 = [stim_path[i] for i in stim_list2]&amp;#10;stim_path2 = np.array(stim_path2)&amp;#10;stim_path3 = np.reshape(stim_path2, (nblocks, npairs_block))&amp;#10;&amp;#10;# print our baby&amp;#10;print(stim_list3)&amp;#10;print(soa_list3)&amp;#10;&amp;#10;# init&amp;#10;enc_block = 0&amp;#10;tr_enc = 0&amp;#10;ret_block = 0&amp;#10;tr_ret = 0&amp;#10;set_len_enc = ntrials_enc/npairs_block&amp;#10;set_len_ret = ntrials_ret/npairs_block" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="/* Syntax Error: Fix Python code */" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_begin" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="code_block">
+      <CodeComponent name="code_block1">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="/* Syntax Error: Fix Python code */" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="# begin routine&amp;#10;# BUILD ENCODING LIST&amp;#10;curr_set_enc = stim_list3[enc_block, :]  # extract current list&amp;#10;# extend it to accomodate ntrials (INT rounds down!)&amp;#10;curr_set_enc = np.tile(curr_set_enc,int(set_len_enc))&amp;#10;# how many are left after that?&amp;#10;how_many_left_enc = round((set_len_enc-int(set_len_enc))*npairs_block)&amp;#10;curr_set_enc = np.append(curr_set_enc, rd.sample(&amp;#10;    list(stim_list3[enc_block, :]), how_many_left_enc))  # add those&amp;#10;curr_set_enc = curr_set_enc.astype(int) # make sure it's integer&amp;#10;rd.shuffle(curr_set_enc)  # shuffle set&amp;#10;#avoid direct repetitions&amp;#10;while 0 in curr_set_enc - np.roll(curr_set_enc,1):&amp;#10;  rd.shuffle(curr_set_enc)  # shuffle set&amp;#10;&amp;#10;# BUILD RETRIEVAL LIST&amp;#10;curr_set_ret = stim_list3[ret_block, :]  # extract current list&amp;#10;# extend it to accomodate ntrials (INT rounds down!)&amp;#10;curr_set_ret = np.tile(curr_set_ret,int(set_len_ret))&amp;#10;# how many are left after that?&amp;#10;how_many_left_ret = round((set_len_ret-int(set_len_ret))*npairs_block)&amp;#10;curr_set_ret = np.append(curr_set_ret, rd.sample(&amp;#10;    list(stim_list3[ret_block, :]), how_many_left_ret))  # add those&amp;#10;curr_set_ret = curr_set_ret.astype(int) # make sure it's integer&amp;#10;rd.shuffle(curr_set_ret)  # shuffle set&amp;#10;#avoid direct repetitions&amp;#10;while 0 in curr_set_ret - np.roll(curr_set_ret,1):&amp;#10;  rd.shuffle(curr_set_ret)  # shuffle set&amp;#10;  &amp;#10;# make soa list by means of lookup table&amp;#10;curr_soa = np.zeros(len(curr_set_ret))&amp;#10;i = 0&amp;#10;for s in curr_set_ret:&amp;#10;  ind = np.where(stim_list3 == s)&amp;#10;  curr_soa[i] = soa_list4[ind]&amp;#10;  i += 1&amp;#10;&amp;#10;# ENCODING stim set&amp;#10;curr_stim_enc = np.array(stim_path)[curr_set_enc]&amp;#10;curr_verb_enc = np.array(verb_list)[curr_set_enc]&amp;#10;&amp;#10;# RETRIEVAL stim set&amp;#10;curr_stim_ret = np.array(stim_path)[curr_set_ret]&amp;#10;curr_verb_ret = np.array(verb_list)[curr_set_ret]&amp;#10;curr_soa_ret  = curr_soa&amp;#10;&amp;#10;# Generate WM set&amp;#10;wm_vec = np.zeros(999)&amp;#10;for ind in range(0,999):&amp;#10;  wm_vec[ind] = str(rd.randint(1, 99))&amp;#10;wm_trl = 0 # trial index&amp;#10;wm_perf = 0 #performance updater&amp;#10;&amp;#10;# Generate RETRIEVAL test set&amp;#10;rettest_trls_temp = np.append(np.unique(curr_set_enc),np.unique(curr_set_enc)) #create a nice and long list&amp;#10;rettest_trls = rettest_trls_temp[:nret_test] #filter out how many rettest trials there will be&amp;#10;rd.shuffle(rettest_trls) #shuffle&amp;#10;while np.count_nonzero((rettest_trls - np.roll(rettest_trls,-1)==0)): #avoid direct repetitions&amp;#10;    rd.shuffle(rettest_trls)&amp;#10;tr_rettest = 0&amp;#10;&amp;#10;thisExp.addData('curr_soa_ret',curr_soa_ret)&amp;#10;thisExp.addData('curr_set_ret',curr_set_ret)&amp;#10;thisExp.addData('curr_verb_ret',curr_verb_ret)&amp;#10;thisExp.addData('curr_stim_ret',curr_stim_ret)&amp;#10;&amp;#10;thisExp.addData('curr_set_enc',curr_set_enc)&amp;#10;thisExp.addData('curr_stim_enc',curr_stim_enc)&amp;#10;" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="tr += 1;&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="#update relevant block variables&amp;#10;enc_block += 1&amp;#10;ret_block += 1&amp;#10;tr_enc = 0&amp;#10;tr_ret = 0" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_block1" valType="code"/>
+      </CodeComponent>
+      <ParallelOutComponent name="port_block">
+        <Param name="address" updates="None" val="0x2010" valType="str"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="name" updates="None" val="port_block" valType="code"/>
+        <Param name="register" updates="None" val="EIO" valType="str"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startData" updates="None" val="14" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopData" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreen" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+      </ParallelOutComponent>
+    </Routine>
+    <Routine name="verb_ret">
+      <CodeComponent name="code">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="if t &gt;= 5:&amp;#10;    continueRoutine = False" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="if ((t &gt;= 5)) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="code_enc">
+      <CodeComponent name="code_encoding">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="/* Syntax Error: Fix Python code */" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="# ENCODING PHASE&amp;#10;stim_enc = curr_stim_enc[tr_enc]&amp;#10;verb_enc = curr_verb_enc[tr_enc]&amp;#10;stimID_enc = curr_set_enc[tr_enc]" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="tr += 1;&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="tr_enc += 1" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_encoding" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="code_ret">
+      <CodeComponent name="code_retrieval">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="/* Syntax Error: Fix Python code */" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="# RETRIEVAL PHASE&amp;#10;stim_ret = curr_stim_ret[tr_ret]&amp;#10;verb_ret = curr_verb_ret[tr_ret]&amp;#10;soa_ret  = curr_soa_ret[tr_ret]&amp;#10;stimID_ret = curr_set_ret[tr_ret]" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="tr += 1;&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="tr_ret += 1" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_retrieval" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="routine_23r23"/>
+    <Routine name="wm_task"/>
+    <Routine name="WM_task">
+      <CodeComponent name="code_4">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="wm_text = Number.parseInt(wm_vec[wm_trl]);&amp;#10;if ((trials.thisN === 0)) {&amp;#10;    loop_timer = new core.Clock();&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="wm_text = int(wm_vec[wm_trl]) # current trial&amp;#10;&amp;#10;if trials.thisN == 0: # only on the first iteration,&amp;#10;  loop_timer = core.Clock() # start a new timer" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="if loop_timer.getTime() &gt;= wm_dur:&amp;#10;    continueRoutine = False&amp;#10;    trials.finished = True" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="if ((loop_timer.getTime() &gt;= wm_dur)) {&amp;#10;    continueRoutine = false;&amp;#10;    trials.finished = true;&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="wm_trl += 1;&amp;#10;if (((key_resp_3.keys === &quot;left&quot;) &amp;&amp; ((wm_text % 2) === 0))) {&amp;#10;    wm_perf += 0;&amp;#10;} else {&amp;#10;    if (((key_resp_3.keys === &quot;left&quot;) &amp;&amp; ((wm_text % 2) !== 0))) {&amp;#10;        wm_perf += 1;&amp;#10;    } else {&amp;#10;        if (((key_resp_3.keys === &quot;right&quot;) &amp;&amp; ((wm_text % 2) !== 0))) {&amp;#10;            wm_perf += 1;&amp;#10;        } else {&amp;#10;            if (((key_resp_3.keys === &quot;right&quot;) &amp;&amp; ((wm_text % 2) === 0))) {&amp;#10;                wm_perf += 0;&amp;#10;            } else {&amp;#10;                wm_perf += 0;&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="wm_trl += 1&amp;#10;&amp;#10;wm_perf += 0" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_4" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="code_wm2"/>
+    <Routine name="WM_results">
+      <CodeComponent name="code_2">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="nCorr = ((wm_perf / (wm_trl - 1)) * 100);&amp;#10;text_results = `You compgot ${nCorr}`;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if wm_perf == 0 and wm_trl == 0:&amp;#10;    nCorr = 0&amp;#10;else:&amp;#10;    nCorr = (wm_perf/(wm_trl-1))*100&amp;#10;    &amp;#10;text_results = &quot;You completed %i trials and got %i percent correct. Press spacebar to continue.&quot; %((wm_trl-1),nCorr)" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_2" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="instruc_enc">
+      <CodeComponent name="code_5">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="reminder_enc = path_instruc + 'reminder_enc.png'" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="reminder_enc = (path_instruc + &quot;reminder_enc.png&quot;);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_5" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="instruc_wm">
+      <CodeComponent name="code_6">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="reminder_wm = path_instruc + 'reminder_wm.png'" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="reminder_wm = (path_instruc + &quot;reminder_wm.png&quot;);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_6" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="instruc_ret">
+      <CodeComponent name="code_7">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="reminder_ret = path_instruc + 'reminder_ret.png'" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="reminder_ret = (path_instruc + &quot;reminder_ret.png&quot;);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_7" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="instruc_end"/>
+    <Routine name="block_ticker">
+      <CodeComponent name="code_8">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="block_update = `This is the end completed ${(wm_trl - 1)} trials and got ${nCorr}`;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if int(pp_num) &gt; 98:&amp;#10;    core.quit()&amp;#10;&amp;#10;block_update = &quot;Block %i out of %i finished. Feel free to take a short break. To continue, press spacebar.&quot; %(enc_block,nblocks)" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_8" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="instruc_rettest">
+      <CodeComponent name="code_9">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="reminder_rettest = path_instruc + 'reminder_rettest.png'" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="reminder_rettest = (path_instruc + &quot;reminder_rettest.png&quot;);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_9" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="code_rettest">
+      <CodeComponent name="code_retrievaltest">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="/* Syntax Error: Fix Python code */" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="# RETRIEVAL TEST PHASE&amp;#10;rettest_ind = rettest_trls[tr_rettest] #first index of ret test list&amp;#10;rettest_curr_verb = np.array(verb_list)[rettest_ind] #fetch that verb&amp;#10;rettest_curr_corr_img = np.array(stim_path)[rettest_ind] #and fetch that image&amp;#10;&amp;#10;rettest_curr_incorr_img = rettest_curr_corr_img&amp;#10;while rettest_curr_incorr_img == rettest_curr_corr_img: #keep going until incorrect image is different from correct&amp;#10;  rand_img = np.random.choice(rettest_trls)&amp;#10;  rettest_curr_incorr_img = np.array(stim_path)[rand_img]&amp;#10;&amp;#10;rng_rettest = rd.uniform(0,1) # randomly allocate correct and incorrect to either left or right side&amp;#10;if rng_rettest &gt; 0.5:&amp;#10;  left_rettest = rettest_curr_corr_img&amp;#10;  right_rettest = rettest_curr_incorr_img&amp;#10;else:&amp;#10;  left_rettest = rettest_curr_incorr_img&amp;#10;  right_rettest = rettest_curr_corr_img&amp;#10;  &amp;#10;if rng_rettest &gt; 0.5:&amp;#10;  corr_ans = 'left'&amp;#10;else:&amp;#10;  corr_ans = 'right'&amp;#10;&amp;#10;thisExp.addData('corr_ans',corr_ans)&amp;#10;thisExp.addData('rettest_curr_corr_img',rettest_curr_corr_img)&amp;#10;thisExp.addData('rettest_curr_incorr_img',rettest_curr_incorr_img)&amp;#10;thisExp.addData('rettest_ind',rettest_ind)&amp;#10;thisExp.addData('rettest_trls',rettest_trls)" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="tr += 1;&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="tr_rettest += 1" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_retrievaltest" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="ret_test"/>
+    <Routine name="fixation3_2"/>
+    <Routine name="fixation5"/>
+    <Routine name="pport_wm"/>
+    <Routine name="pport_enc">
+      <ParallelOutComponent name="port_enc_start">
+        <Param name="address" updates="None" val="0x0378" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="name" updates="None" val="port_enc_start" valType="code"/>
+        <Param name="register" updates="None" val="EIO" valType="str"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startData" updates="None" val="10" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopData" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreen" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+      </ParallelOutComponent>
+    </Routine>
+    <Routine name="pport_ret">
+      <ParallelOutComponent name="port_ret">
+        <Param name="address" updates="None" val="0x0378" valType="str"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="name" updates="None" val="port_ret" valType="code"/>
+        <Param name="register" updates="None" val="EIO" valType="str"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startData" updates="None" val="12" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopData" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreen" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+      </ParallelOutComponent>
+    </Routine>
+    <Routine name="pport_rettest"/>
+  </Routines>
+  <Flow>
+    <Routine name="code_init"/>
+    <Routine name="begin"/>
+    <Routine name="instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="blocks_total">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="nblocks" valType="num"/>
+      <Param name="name" updates="None" val="blocks_total" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="code_block"/>
+    <Routine name="instruc_enc"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_enc">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="ntrials_enc" valType="code"/>
+      <Param name="name" updates="None" val="trials_enc" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="code_enc"/>
+    <Routine name="fixation"/>
+    <Routine name="word"/>
+    <Routine name="fixation2"/>
+    <Routine name="img_enc"/>
+    <LoopTerminator name="trials_enc"/>
+    <Routine name="instruc_wm"/>
+    <Routine name="pport_wm"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="999" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="WM_task"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="WM_results"/>
+    <Routine name="instruc_ret"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_ret">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="ntrials_ret" valType="code"/>
+      <Param name="name" updates="None" val="trials_ret" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="code_ret"/>
+    <Routine name="fixation5"/>
+    <Routine name="verb_ret"/>
+    <Routine name="fixation4"/>
+    <LoopTerminator name="trials_ret"/>
+    <Routine name="instruc_rettest"/>
+    <Routine name="pport_rettest"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_rettest">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="nret_test" valType="num"/>
+      <Param name="name" updates="None" val="trials_rettest" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="code_rettest"/>
+    <Routine name="ret_test"/>
+    <Routine name="fixation5"/>
+    <LoopTerminator name="trials_rettest"/>
+    <Routine name="block_ticker"/>
+    <LoopTerminator name="blocks_total"/>
+    <Routine name="end"/>
+  </Flow>
+</PsychoPy2experiment>
