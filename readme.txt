@@ -1,7 +1,7 @@
 These files were used to run and analyse the long-term memory ping study by Sander van Bree, Abbie Sarah Mackenzie, and Maria Wimber.
 
-- The Data folder contains behavioral and EEG data [not included in Github Repo]
-- The Analyse folder contains sequential analysis scripts
+- The Data folder contains behavioral and EEG data [not included in Github Repo, provided on acceptance]
+- The Analyse folder contains sequential analysis scripts (with a separate set of revisions analyses)
 - The Dependencies folder contains scripts and files you need to run the analyses.
 - The Experiment folder contains Psychopy material used for running the study
 - The Simulation folder contains material for running analysis-validating simulations
