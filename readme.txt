@@ -5,10 +5,11 @@ Paper: [link pending] (open-access CC BY)
 - The Dependencies folder contains scripts and files you need to run the analyses.
 - The Experiment folder contains Psychopy material used for running the study
 - The Simulation folder contains material for running analysis-validating simulations
+- A Data folder needs to be created locally; the EEG and behavioral data need to be put in there (data/eeg_data/ & data/behav_data)
 
 The preprocessed EEG data and behavioral data can be downloaded here:
 [Figshare link pending]
-We provide the analysis-ready preprocessed EEG data, namely the output of script 5 (s5_correctdata.m)
+There are the analysis-ready preprocessed EEG data, namely the output of script 5 (s5_correctdata.m).
 
 Notes:
 - The statistical values and results will not exactly match the reported results because there is randomness in the scripts (e.g., in classifier folding and label shuffling).
