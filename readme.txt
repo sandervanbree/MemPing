@@ -9,7 +9,8 @@ Paper: [link pending] (open-access CC BY)
 
 The preprocessed EEG data and behavioral data can be downloaded here:
 [Figshare link pending]
-There are the analysis-ready preprocessed EEG data, namely the output of script 5 (s5_correctdata.m).
+The EEG data is the analysis-ready preprocessed version, namely the output of script 5 (s5_correctdata.m).
+The behavioral data is the output of script 1 (s0_extractdata.m).
 
 Notes:
 - The statistical values and results will not exactly match the reported results because there is randomness in the scripts (e.g., in classifier folding and label shuffling).
