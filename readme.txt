@@ -1,15 +1,17 @@
 These files were used to run and analyse the long-term memory ping study by Sander van Bree, Abbie Sarah Mackenzie, and Maria Wimber.
+Paper: [link pending] (open-access CC BY)
 
 - The Analyse folder contains sequential analysis scripts (with a separate set of revisions analyses)
 - The Dependencies folder contains scripts and files you need to run the analyses.
 - The Experiment folder contains Psychopy material used for running the study
 - The Simulation folder contains material for running analysis-validating simulations
 
-The preprocessed EEG data and behavioral data can be downloaded here; make sure to update the folder paths:
+The preprocessed EEG data and behavioral data can be downloaded here:
 [Figshare link pending]
 We provide the analysis-ready preprocessed EEG data, namely the output of script 5 (s5_correctdata.m)
 
 Notes:
+- Make sure to update your folder paths inside all of the scripts
 - The statistical values and results will not exactly match the reported results because there is randomness in the scripts (e.g., in classifier folding and label shuffling).
 - Participant 16 did not finish the experiment and was excluded from all analyses.
 - Two participants (2, 23) had poor data quality, and were excluded from EEG analyses, and one (7) was removed for trigger issues.
