@@ -11,12 +11,11 @@ The preprocessed EEG data and behavioral data can be downloaded here:
 We provide the analysis-ready preprocessed EEG data, namely the output of script 5 (s5_correctdata.m)
 
 Notes:
-- Make sure to update your folder paths inside all of the scripts
 - The statistical values and results will not exactly match the reported results because there is randomness in the scripts (e.g., in classifier folding and label shuffling).
 - Participant 16 did not finish the experiment and was excluded from all analyses.
 - Two participants (2, 23) had poor data quality, and were excluded from EEG analyses, and one (7) was removed for trigger issues.
 - At some point we switched EEG caps. The relevant changes are incorporated in the scripts.
-- Make sure to set your folders correctly whenever directories are called in the pipeline.
+- Make sure to change the path to your folders across scripts.
 - If you want to check out the Psychopy scripts, ensure directories are lined up and you may need to use our version (2021.2.3; tip: you can run earlier versions from later versions)
 
 Dependencies:
