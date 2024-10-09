@@ -8,9 +8,9 @@ Paper: [link pending] (open-access CC BY)
 - A Data folder needs to be created locally; the EEG and behavioral data need to be put in there (data/eeg_data/ & data/behav_data)
 
 The preprocessed EEG data and behavioral data can be downloaded here:
-[Figshare link pending]
-The EEG data is the analysis-ready preprocessed version, namely the output of script 5 (s5_correctdata.m).
-The behavioral data is the output of script 1 (s0_extractdata.m).
+https://zenodo.org/records/13909754
+The EEG data ("pp_reorder.mat") is the analysis-ready preprocessed version, namely the output of script 5 (s5_correctdata.m).
+The behavioral data ("behav_res_pp.mat") is the output of script 1 (s0_extractdata.m).
 
 Notes:
 - The statistical values and results will not exactly match the reported results because there is randomness in the scripts (e.g., in classifier folding and label shuffling).
